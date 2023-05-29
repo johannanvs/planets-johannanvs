@@ -1,3 +1,12 @@
+"""
+Reproduce Milankovitch cycle of eccentricity (100ka)
+
+Input: initial positions of the planets
+
+Output: Graph of orbits and a timeseries of an eccentricity parameter
+
+"""
+
 #planet with Jupiter
 import numpy as np
 from  planet_functions import *
